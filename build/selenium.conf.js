@@ -24,6 +24,8 @@ module.exports = {
             baseURL: 'https://selenium-release.storage.googleapis.com'
         },
         firefox: {
+            // Firefox 浏览器启动 Driver，请在下方链接查询最新版本。
+            // https://github.com/mozilla/geckodriver/releases/
             version: '0.18.0',
             arch: process.arch,
             baseURL: 'https://github.com/mozilla/geckodriver/releases/download'
