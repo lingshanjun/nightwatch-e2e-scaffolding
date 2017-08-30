@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "e2e": "node ./startup.js",
+    "e2e": "./node_modules/nightwatch/bin/nightwatch",
     "selenium-setup": "node ./build/selenium-setup.js",
     "selenium-start": "node ./build/selenium-start.js"
   },
